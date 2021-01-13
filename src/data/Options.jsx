@@ -1,1 +1,1 @@
-export const options = ["good", "neutral", "bad"];
+export const OPTIONS = ["good", "neutral", "bad"];
