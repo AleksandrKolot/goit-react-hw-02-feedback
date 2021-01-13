@@ -40,6 +40,7 @@ class App extends Component {
           <FeedbackOptions
             options={OPTIONS}
             onLeaveFeedback={this.handleSelectedFeedback}
+            key={OPTIONS}
           />
         </Section>
         <Section title="Statistics">
