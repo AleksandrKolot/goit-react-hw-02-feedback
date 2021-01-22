@@ -1,10 +1,10 @@
 import { Component } from "react";
-import Section from "./components/Section/Section";
+import Section from "../Section/Section";
 
-import FeedbackOptions from "./components/FeedbackOptions/FeedbackOptions";
-import Statistics from "./components/Statistics/Statistics";
+import FeedbackOptions from "../FeedbackOptions/FeedbackOptions";
+import Statistics from "../Statistics/Statistics";
 import "./App.css";
-import { OPTIONS } from "./data/Options";
+import { OPTIONS } from "../../data/Options";
 
 class App extends Component {
   state = {
